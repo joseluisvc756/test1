@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/linuxbrew/.linuxbrew/Cellar/node/10.9.0/bin/node',
+1 verbose cli   '/home/linuxbrew/.linuxbrew/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'users' ]
+2 info using npm@3.10.10
+3 info using node@v10.9.0
+4 verbose stack Error: missing script: users
+4 verbose stack     at run (/home/linuxbrew/.linuxbrew/lib/node_modules/npm/lib/run-script.js:151:19)
+4 verbose stack     at /home/linuxbrew/.linuxbrew/lib/node_modules/npm/lib/run-script.js:61:5
+4 verbose stack     at /home/linuxbrew/.linuxbrew/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/home/linuxbrew/.linuxbrew/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/home/linuxbrew/.linuxbrew/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/home/linuxbrew/.linuxbrew/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at ReadFileContext.<anonymous> (/home/linuxbrew/.linuxbrew/lib/node_modules/npm/node_modules/read-package-json/read-json.js:295:20)
+4 verbose stack     at ReadFileContext.callback (/home/linuxbrew/.linuxbrew/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16)
+4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:233:13)
+5 verbose cwd /home/jose/worspace_cursoMongodb/users
+6 error Linux 4.15.0-47-generic
+7 error argv "/home/linuxbrew/.linuxbrew/Cellar/node/10.9.0/bin/node" "/home/linuxbrew/.linuxbrew/bin/npm" "run" "users"
+8 error node v10.9.0
+9 error npm  v3.10.10
+10 error missing script: users
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
